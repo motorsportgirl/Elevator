@@ -1,0 +1,24 @@
+# --- Vivado Temporary and Log Files ---
+*.log
+*.jou
+*.pb
+*.str
+*.dir
+.Xil/
+
+# --- Simulation Files ---
+# Ignorăm folderul de simulare complet pentru că poate fi regenerat
+lift.sim/
+
+# --- IP and User Files ---
+# De obicei, acestea sunt generate din scripturi sau fișiere sursă
+lift.ip_user_files/
+
+# --- Cache and HW ---
+# Acestea sunt date locale de compilare/hardware
+lift.cache/
+lift.hw/
+
+# --- Compilation/Build Outputs ---
+# Dacă ai un folder de output pentru bitstream sau alte fișiere binare
+# Adaugă-l aici dacă apare (ex: /build/)
