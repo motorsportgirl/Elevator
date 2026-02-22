@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="720.001 ns"></ZoomEndTime>
+      <Cursor1Time time="720.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="166"></NameColumnWidth>
+      <ValueColumnWidth column_width="78"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/testbench/etaj_cerut" type="array">
+      <obj_property name="ElementShortName">etaj_cerut[2:0]</obj_property>
+      <obj_property name="ObjectShortName">etaj_cerut[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/clk_100MHz" type="logic">
+      <obj_property name="ElementShortName">clk_100MHz</obj_property>
+      <obj_property name="ObjectShortName">clk_100MHz</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/out" type="array">
+      <obj_property name="ElementShortName">out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/inst_top/inst_d/out" type="array">
+      <obj_property name="ElementShortName">out[1:0]</obj_property>
+      <obj_property name="ObjectShortName">out[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/inst_top/inst_fsm/sus" type="logic">
+      <obj_property name="ElementShortName">sus</obj_property>
+      <obj_property name="ObjectShortName">sus</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/inst_top/inst_fsm/jos" type="logic">
+      <obj_property name="ElementShortName">jos</obj_property>
+      <obj_property name="ObjectShortName">jos</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/inst_top/inst_fsm/door_cnt_en" type="logic">
+      <obj_property name="ElementShortName">door_cnt_en</obj_property>
+      <obj_property name="ObjectShortName">door_cnt_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/inst_top/inst_fsm/stare" type="array">
+      <obj_property name="ElementShortName">stare[2:0]</obj_property>
+      <obj_property name="ObjectShortName">stare[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/inst_top/inst_fsm/etaj_curent" type="array">
+      <obj_property name="ElementShortName">etaj_curent[2:0]</obj_property>
+      <obj_property name="ObjectShortName">etaj_curent[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/inst_top/inst_fsm/etaj_cerut" type="array">
+      <obj_property name="ElementShortName">etaj_cerut[2:0]</obj_property>
+      <obj_property name="ObjectShortName">etaj_cerut[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/inst_top/inst_fsm/door_cnt_val" type="array">
+      <obj_property name="ElementShortName">door_cnt_val[1:0]</obj_property>
+      <obj_property name="ObjectShortName">door_cnt_val[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/inst_top/inst_f/etaj_curent" type="array">
+      <obj_property name="ElementShortName">etaj_curent[2:0]</obj_property>
+      <obj_property name="ObjectShortName">etaj_curent[2:0]</obj_property>
+   </wvobject>
+</wave_config>
